@@ -135,6 +135,7 @@
 }
 
 
+
 .testimonial h3 {
     margin-top: 100px;
     font-style: normal;
@@ -152,47 +153,51 @@
     text-align: center;
 }   
 
-.banner {
-    background: #0D28A6;
-    border-radius: 13px;
-    padding: 64px 0;
-    color: #fff;
-    margin-left: 136px;
-    margin-right: 136px;
-    height: 326px;
-}
-.title-banner {
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 150%;
+.card img{
+    width: 32px;
+    height: 32px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+
 }
 
-.text-banner {
+.testimonial .card p{
+    margin-bottom: 20px;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
-    margin-top: 16px;
-    margin-bottom: 60px;
-    padding: 0 160px;
+    text-align: left;
 }
 
-.btn-banner {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    max-width: 150px;
-    text-align: center;
+.testimonial .card {
+    background-color: #E8E2E2;
+}
+
+
+
+
+.banner {
+    margin-top: 150px;
+
+}
+.bg-banner{
+    background: #0D28A6;
+    border-radius: 13px;
+    color: #fff;
     
 }
 
-.btn-wrapper{
-    display: flex;
-    justify-content: center;
+.bg-banner h2{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.bg-banner p{
+    font-weight: 300;
+    font-size: 14px;
+    
 }
 
 .faq {
@@ -223,7 +228,24 @@
     margin-bottom: 50px;
 }
 
-.pages {
-    border: none;
-    margin-bottom: 2px;
+.contact .pages a{
+    text-decoration: none;
+    color:  black;
+    font-style: normal;
+
+}
+
+.contact .pages p {
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 20px;
+    
+
+}
+
+.contact .address p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
 }
